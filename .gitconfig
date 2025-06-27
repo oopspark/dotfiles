@@ -1,0 +1,6 @@
+[user]
+	name = jimin
+	email = parkjimin788@gmail.com
+[alias]
+	pull = pull
+	push = !git add . && git commit -m \"quick\" && git push -u origin main
