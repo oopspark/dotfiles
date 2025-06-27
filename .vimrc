@@ -18,9 +18,9 @@ set smartcase         " 대문자 포함하면 구분
 set incsearch         " 입력 중간 검색 결과 표시
 set hlsearch          " 검색어 하이라이트
 
-set undofile          " 실행 취소 기록 파일 저장
-set swapfile          " 스왑 파일 사용 (필요 없으면 off)
-set autoread          " 파일 외부 변경 시 자동 reload
+#set undofile          " 실행 취소 기록 파일 저장
+#set swapfile          " 스왑 파일 사용 (필요 없으면 off)
+#set autoread          " 파일 외부 변경 시 자동 reload
 
 set cursorline        " 커서 위치 줄 강조
 set showmatch         " 괄호 자동 짝 보여줌
