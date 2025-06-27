@@ -117,9 +117,9 @@ if ! shopt -oq posix; then
 fi
 
 
-alias bsrc='nvim $HOME/.bashrc'
+alias bsrc='vim $HOME/.bashrc'
 alias bsrcs='source $HOME/.bashrc'
-alias pyp='cd $HOME/pyprojects'
-alias ipy='pyp && source $HOME/pyprojects/myenv/bin/activate && ipython'
+alias pyp='cd $HOME/my_projects/py_prjt'
+alias ipy='pyp && source $HOME/my_projects/py_prjt/myenv/bin/activate && ipython3'
 alias deac='deactivate && cd'
 alias ins='sudo apt install'
