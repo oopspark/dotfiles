@@ -5,3 +5,5 @@
 	pull = pull
 	quick = !git add . && git commit -m \"quick\"
 	push = !git push -u origin main
+[init]
+	defaultBranch = main
