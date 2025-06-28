@@ -1,7 +1,5 @@
-if [ -f "git.sh" ]; then
-  source "git.sh"
-fi
-
+source "git.sh"
+source "info.sh"
 
 # ~/.bashrc: executed by bash(1) for non-login shells.
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
@@ -122,9 +120,16 @@ if ! shopt -oq posix; then
 fi
 
 
+
+alias vim="nvim"
 alias bsrc='vim $HOME/.bashrc'
 alias bsrcs='source $HOME/.bashrc'
-alias pyp='cd $HOME/my_projects/py_prjt'
-alias ipy='pyp && source $HOME/my_projects/py_prjt/myenv/bin/activate && ipython3'
+alias ipy='cd $mypr/py_prjt && source $mypr/py_prjt/myenv/bin/activate && ipython3'
 alias deac='deactivate && cd'
 alias ins='sudo apt install'
+
+alias mypr="cd $mypr"
+alias dotf="cd $dotf"
+alias nvim="cd $nvim"
+
+
